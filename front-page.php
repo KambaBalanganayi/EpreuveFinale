@@ -22,8 +22,11 @@
             if ( have_posts() ) :
                 while( have_posts() ) :
                 the_post();
-                the_title('<p>','</p>');
+        ?>
+                <h1><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h1>
+        <?php
                 the_content(null, true);
+                the_permalink();
                 endwhile;
             endif;
 
