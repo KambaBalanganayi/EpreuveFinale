@@ -61,3 +61,12 @@ function underscore_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'underscore_scripts' );
 
+/*-------------------------Initialisation de la fonction menu-----------------------------*/
+
+function kamba_theme_register_nav_menu(){
+    register_nav_menus( array(
+        'primary_menu' => __( 'Primary Menu', 'text_domain' ),
+        //'footer_menu' => __( 'Footer Menu', 'text_domain' ),
+    ) );
+}
+add_action('after_setup_theme', 'kamba_theme_register_nav_menu', 0);

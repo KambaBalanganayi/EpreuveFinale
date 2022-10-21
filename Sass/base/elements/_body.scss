@@ -2,6 +2,10 @@ body {
 	background: $color__background-body; // Fallback for when there is no custom background color defined.
 }
 
+main{
+	font-family: $font__main;
+}
+
 .trace{
 	background-color: #0f0;
 }
