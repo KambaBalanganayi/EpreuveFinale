@@ -45,6 +45,7 @@ Text Domain: 31-w
 /*-------couleurs du texte-------*/
 /*-------couleurs des liens-------*/
 /*-------couleurs des differents boutons-------*/
+/*-------couleurs des differents items du menu-------*/
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -619,7 +620,7 @@ textarea {
 # Composants
 --------------------------------------------------------------*/
 .menu-primary_menu-container {
-  background-color: black;
+  background-color: navy;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -639,6 +640,4 @@ textarea {
 }
 .menu-primary_menu-container .menu .menu-item a:hover {
   background-color: #555;
-}
-
-/*Transformation en CSS*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
