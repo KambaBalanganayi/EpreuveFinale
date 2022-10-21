@@ -617,4 +617,8 @@ textarea {
 
 /*--------------------------------------------------------------
 # Composants
---------------------------------------------------------------*//*# sourceMappingURL=style.css.map */
+--------------------------------------------------------------*/
+.menu-primary_menu-container .menu {
+  list-style-type: none;
+}
+/*Transformation en CSS*//*# sourceMappingURL=style.css.map */
