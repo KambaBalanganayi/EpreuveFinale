@@ -378,6 +378,10 @@ body {
   background: rgb(209, 153, 68);
 }
 
+.trace {
+  background-color: #0f0;
+}
+
 /**
 *  styles pour h1,h2,h3,h4,h5mh6 et p
 */
