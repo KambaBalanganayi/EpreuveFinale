@@ -31,7 +31,6 @@
                         <span><?php the_time(); ?></span>
                     </small>
                     <code><?php the_author(); ?></code>
-                    <pre><?php the_category(); ?></pre>
                 </section>
                 <?php
                 endwhile;
