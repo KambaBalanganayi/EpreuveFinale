@@ -28,7 +28,7 @@
                     <small>
                         <span><?php the_weekday(); ?></span>
                         <span><?php the_date(); ?></span>
-                        <span><?php the_time(); ?></span>
+                        <code><?php the_time(); ?></code>
                     </small>
                     <code><?php the_author(); ?></code>
                 </section>
