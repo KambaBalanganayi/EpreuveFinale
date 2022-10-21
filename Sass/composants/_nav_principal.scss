@@ -1,12 +1,29 @@
 .menu-primary_menu-container{
-//nav
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+height: 6rem;
+
     .menu{
-        //ul
+        
         list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+
         .menu-item{
-            //li
+            
             a{
-                //a
+            
+            text-decoration: none;
+            background-color: black;
+            color: aqua;
+            padding: 5px;
+            }
+
+            a:hover{
+                background-color: #555;
             }
         }
     }

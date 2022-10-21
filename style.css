@@ -618,7 +618,27 @@ textarea {
 /*--------------------------------------------------------------
 # Composants
 --------------------------------------------------------------*/
+.menu-primary_menu-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6rem;
+}
 .menu-primary_menu-container .menu {
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
+.menu-primary_menu-container .menu .menu-item a {
+  text-decoration: none;
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+.menu-primary_menu-container .menu .menu-item a:hover {
+  background-color: #555;
+}
+
 /*Transformation en CSS*//*# sourceMappingURL=style.css.map */
