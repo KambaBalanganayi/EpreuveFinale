@@ -652,4 +652,23 @@ textarea {
 --------------------------------------------------------------*/
 .site {
   display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-areas: "header header" "sidebar main" "footer footer";
+}
+
+.site__header {
+  grid-area: header;
+}
+
+.site__main {
+  grid-area: main;
+  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+}
+
+.widget__area {
+  grid-area: sidebar;
+}
+
+.site__footer {
+  grid-area: footer;
 }/*# sourceMappingURL=style.css.map */

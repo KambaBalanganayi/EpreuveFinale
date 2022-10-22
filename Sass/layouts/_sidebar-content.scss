@@ -19,3 +19,9 @@
 .widget__area {
     grid-area: sidebar;
 }
+
+.site__footer{
+    grid-area: footer;
+}
+
+@import "no-sidebar";
