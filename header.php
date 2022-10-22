@@ -24,6 +24,12 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
+
+	<?php  //Affichage du menu principale
+			wp_nav_menu(array(
+			"menu" => "primary_menu",
+			"container" => "nav")); ?>
+
 		<div class="site-branding">
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
@@ -36,7 +42,5 @@
 				<p class="site-description"><?php echo $kamba_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 				<?php endif; ?>
 		</div><!-- .site-branding -->
-		<?php wp_nav_menu(array(
-			"menu" => "primary_menu",
-			"container" => "nav")); ?>
+		
 	</header><!-- #masthead -->
