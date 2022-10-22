@@ -619,25 +619,37 @@ textarea {
 /*--------------------------------------------------------------
 # Composants
 --------------------------------------------------------------*/
-.menu-primary_menu-container {
+.primary-menu {
   background-color: navy;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 6rem;
+  justify-content: center;
+  margin: 0;
 }
-.menu-primary_menu-container .menu {
+
+.menu {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
-.menu-primary_menu-container .menu .menu-item a {
+
+.menu-item a {
+  display: block;
   text-decoration: none;
   background-color: rgb(45, 44, 44);
   color: rgb(170, 40, 182);
-  padding: 5px;
+  padding: 5px 10px 5px 10px;
 }
-.menu-primary_menu-container .menu .menu-item a:hover {
+.menu-item a:hover {
   background-color: #555;
+}
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+.site {
+  display: grid;
 }/*# sourceMappingURL=style.css.map */

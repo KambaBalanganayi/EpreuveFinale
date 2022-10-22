@@ -28,10 +28,11 @@
 	<?php  //Affichage du menu principal
 			wp_nav_menu(array(
 			"menu" => "primary_menu",
-			"container" => "nav")); ?>
+			"container" => "nav",
+			"container_class" => "primary__menu")); ?>
 
-		<div class="site-branding">
-				<h1 class="site-title">
+		<div class="site__branding">
+				<h1 class="site__title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 				</h1>
 			

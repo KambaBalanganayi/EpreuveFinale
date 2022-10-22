@@ -1,32 +1,39 @@
-.menu-primary_menu-container{
+
+//nav
+.primary-menu{
 background-color: $color__menu__container-background;
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-height: 6rem;
+justify-content: center;
+margin: 0;
+}
 
-    .menu{
-        
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
+//ul
+.menu{
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 
-        .menu-item{
-            
-            a{
-            
-            text-decoration: none;
-            background-color: $color__menu__item-background;
-            color: $color__menu__item-text;
-            padding: 5px;
-            }
+//li
+.menu-item{
 
-            a:hover{
-                background-color: $color__menu__item-hover;
-            }
-        }
+    a{
+    display: block;
+    text-decoration: none;
+    background-color: $color__menu__item-background;
+    color: $color__menu__item-text;
+    padding: 5px 10px 5px 10px;
+    }
+
+    a:hover{
+        background-color: $color__menu__item-hover;
     }
 }
+    
 
 
