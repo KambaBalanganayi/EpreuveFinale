@@ -654,15 +654,13 @@ textarea {
   margin: 0;
 }
 
+.site__title a {
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
-.site {
-  display: grid;
-  grid-template-columns: 25% auto;
-  grid-template-areas: "header header" "sidebar main" "footer footer";
-}
-
 .site__header {
   grid-area: header;
 }
@@ -678,4 +676,16 @@ textarea {
 
 .site__footer {
   grid-area: footer;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "sidebar" "header" "main" "footer";
+}
+@media screen and (min-width: 700px) {
+  .site {
+    grid-template-columns: 25% auto;
+    grid-template-areas: "header header" "sidebar main" "footer footer";
+  }
 }/*# sourceMappingURL=style.css.map */
