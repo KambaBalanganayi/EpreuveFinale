@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
 
-	<?php  //Affichage du menu principale
+	<?php  //Affichage du menu principal
 			wp_nav_menu(array(
 			"menu" => "primary_menu",
 			"container" => "nav")); ?>
