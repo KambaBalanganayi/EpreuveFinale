@@ -14,7 +14,6 @@
 
 
 ?>
-<h1 class="trace">Single.php</h1>
 <?php get_header();?>
 
     <main  class="site__main">

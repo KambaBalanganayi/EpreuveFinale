@@ -619,34 +619,40 @@ textarea {
 /*--------------------------------------------------------------
 # Composants
 --------------------------------------------------------------*/
-.primary-menu {
-  background-color: navy;
+.primary__menu {
+  background-color: rgb(45, 44, 44);
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0;
 }
-
-.menu {
+.primary__menu .menu {
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
+  background-color: rgb(45, 44, 44);
 }
-
-.menu-item a {
+.primary__menu .menu .menu-item a {
   display: block;
   text-decoration: none;
-  background-color: rgb(45, 44, 44);
   color: rgb(170, 40, 182);
   padding: 5px 10px 5px 10px;
 }
-.menu-item a:hover {
+.primary__menu .menu .menu-item a:hover {
   background-color: #555;
 }
 
+.menu__aside {
+  display: flex;
+}
+.menu__aside .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
