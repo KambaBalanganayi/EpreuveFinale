@@ -23,3 +23,32 @@
         }
     
 }
+
+.sidebar-aside {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wp-block-calendar table{
+    width: 75%;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    border-color: black;
+    caption{
+        font-size: 1.5rem;
+        color: black;
+        text-decoration: underline;
+        padding-bottom: .5rem ;
+    }
+    tbody{
+        background-color: $color__background-nav;
+    }
+    tr{
+        font-size: 1rem;
+    }
+}
+
+.widget_search{
+    margin-top: 1rem;
+}

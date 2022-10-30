@@ -668,6 +668,34 @@ textarea {
   background-color: #9F87AF;
 }
 
+.sidebar-aside {
+  display: flex;
+  justify-content: center;
+}
+
+.wp-block-calendar table {
+  width: 75%;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  border-color: black;
+}
+.wp-block-calendar table caption {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+}
+.wp-block-calendar table tbody {
+  background-color: #B1DDF1;
+}
+.wp-block-calendar table tr {
+  font-size: 1rem;
+}
+
+.widget_search {
+  margin-top: 1rem;
+}
+
 .site__title {
   display: flex;
   justify-content: center;

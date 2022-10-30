@@ -51,6 +51,11 @@
 					"menu" => "aside",
 					"container" => "nav",
 					"container_class" => "menu__aside"
-		)); 
+		)); 		
 		?>
+		<div><?php get_sidebar( 'aside-2' ); ?></div>
+	</aside>
+	<aside class="widget__area-2">
+		<div><?php get_sidebar( 'aside-1' ); ?></div>
+		
 	</aside>
