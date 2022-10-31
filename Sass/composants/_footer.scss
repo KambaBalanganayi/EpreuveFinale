@@ -1,9 +1,14 @@
 .site__footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: $color__background-aside;
+    border-top: solid 3px navy;
+    margin-top: 25px;
+
 }
 
-.site__footer div{
-    flex: 1;
-    border: 1px solid #aaa;
+.site__footer figure{
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
 }

@@ -2,7 +2,7 @@
 /*! 
 Theme Name: Kamba-Theme 
 Author: Kamba Balanganayi
-Author URI: https://github.com/KambaBalanganayi/
+Author URI: https://github.com/KambaBalanganayi/21647-31w
 Description: Thème de base pour le cours de 31W
 Version: 1.0.0
 Tested up to: 5.4
@@ -711,12 +711,16 @@ textarea {
 
 .site__footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #9F87AF;
+  border-top: solid 3px navy;
+  margin-top: 25px;
 }
 
-.site__footer div {
-  flex: 1;
-  border: 1px solid #aaa;
+.site__footer figure {
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /*--------------------------------------------------------------

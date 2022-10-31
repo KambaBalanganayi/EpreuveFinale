@@ -115,6 +115,18 @@ function my_register_sidebars() {
 			'after_title'   => '</h3>',
 		)
 	);
+	/* Register the 'footer-3' sidebar. */
+	register_sidebar(
+		array(
+			'id'            => 'footer-3',
+			'name'          => __( 'Sidebar 1 - footer-3' ),
+			'description'   => __( 'A short description of the sidebar.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
 	/* Register the 'aside-1' sidebar. */
 	register_sidebar(
 		array(
