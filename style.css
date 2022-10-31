@@ -712,7 +712,7 @@ textarea {
 .site__footer {
   display: flex;
   justify-content: space-between;
-  background-color: #9F87AF;
+  background-color: rgb(45, 44, 44);
   border-top: solid 3px navy;
   margin-top: 25px;
 }
@@ -721,6 +721,10 @@ textarea {
   border-radius: 0;
   padding: 0;
   margin: 0;
+}
+
+.widget-text b, strong {
+  color: #aa28b6;
 }
 
 /*--------------------------------------------------------------
