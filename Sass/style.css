@@ -749,6 +749,11 @@ textarea {
   grid-area: footer;
 }
 
+.sidebar-aside {
+  display: flex;
+  justify-content: right;
+}
+
 .site {
   display: grid;
   grid-template-columns: auto;

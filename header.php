@@ -58,4 +58,5 @@
 	<aside class="widget__area-2">
 		<div><?php get_sidebar( 'aside-1' ); ?></div>
 		<div><?php get_sidebar( 'aside-3' ); ?></div>
+		
 	</aside>
