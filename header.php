@@ -5,6 +5,8 @@
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ * 
+ * @link https://github.com/KambaBalanganayi/21647-31w
  *
  * @package kamba_theme
  */
@@ -58,5 +60,5 @@
 	<aside class="widget__area-2">
 		<div><?php get_sidebar( 'aside-1' ); ?></div>
 		<div><?php get_sidebar( 'aside-3' ); ?></div>
-		
+
 	</aside>
