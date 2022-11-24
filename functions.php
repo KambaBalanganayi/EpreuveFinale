@@ -131,14 +131,28 @@ function my_register_sidebars() {
 	register_sidebar(
 		array(
 			'id'            => 'aside-1',
-			'name'          => __( 'Sidebar 2 - aside-1' ),
-			'description'   => __( 'A short description of the sidebar.' ),
+			'name'          => __( 'Recherche' ),
+			'description'   => __( 'Barre de recherche.' ),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h2 class="widget-title">',
 			'after_title'   => '</h2>',
 		)
 	);
+
+	/* Register the 'aside-1' sidebar. */
+	register_sidebar(
+		array(
+			'id'            => 'aside-3',
+			'name'          => __( 'Icones Sociaux' ),
+			'description'   => __( 'Widget d\'icones sociaux.' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+	
 	/* Register the 'aside-2' sidebar. */
 	register_sidebar(
 		array(
