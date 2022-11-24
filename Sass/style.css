@@ -754,6 +754,10 @@ textarea {
   justify-content: right;
 }
 
+.barre-recherche {
+  width: 70%;
+}
+
 .site {
   display: grid;
   grid-template-columns: auto;
