@@ -696,6 +696,7 @@ textarea {
 
 .widget_search {
   margin-top: 1rem;
+  width: 65%;
 }
 
 .site__title {
@@ -754,8 +755,8 @@ textarea {
   justify-content: right;
 }
 
-.barre-recherche {
-  width: 70%;
+.wp-block-search__inside-wrapper {
+  max-width: 70%;
 }
 
 .site {

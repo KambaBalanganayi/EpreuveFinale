@@ -23,11 +23,13 @@
                 while( have_posts() ) :
                 the_post();
                 the_title('<h2>','</h2>');
+                
                 the_content(null, true);
                 endwhile;
             endif;
 
         ?>
+        <h2 class="pagetitle">Resultat de recherche pour: <?php $allsearch = new WP_Query("s=$s&showposts=-1"); $key = wp_specialchars($s, 1); $count = $allsearch->post_count; _e(''); _e('<span class="search-terms">'); echo $key; _e('</span>'); _e(' &mdash; '); echo $count . ' '; _e('articles'); wp_reset_query(); ?></h2>
     </main>
 <?php get_footer();?>
 
