@@ -694,6 +694,7 @@ textarea {
 
 .widget_search {
   margin-top: 1rem;
+  width: 65%;
 }
 
 .site__title {
@@ -745,6 +746,20 @@ textarea {
 
 .site__footer {
   grid-area: footer;
+}
+
+.barre-icones {
+  display: flex;
+  justify-content: right;
+}
+
+.barre-recherche {
+  display: flex;
+  justify-content: right;
+}
+
+.wp-block-search__inside-wrapper {
+  max-width: 80%;
 }
 
 .site {
