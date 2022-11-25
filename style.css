@@ -692,11 +692,6 @@ textarea {
   font-size: 1rem;
 }
 
-.widget_search {
-  margin-top: 1rem;
-  width: 65%;
-}
-
 .site__title {
   display: flex;
   justify-content: center;
@@ -753,13 +748,13 @@ textarea {
   justify-content: right;
 }
 
-.barre-recherche {
+.widget_search {
   display: flex;
   justify-content: right;
 }
 
-.wp-block-search__inside-wrapper {
-  max-width: 80%;
+.wp-block-search__input {
+  width: 500px;
 }
 
 .site {

@@ -20,14 +20,16 @@
     justify-content: right;
 }
 
-.barre-recherche{
+
+.widget_search {
     display: flex;
     justify-content: right;
 }
 
-.wp-block-search__inside-wrapper {
-    max-width: 80%;
+.wp-block-search__input{
+    width: 500px;
 }
+
 
 .site{
     display: grid;
